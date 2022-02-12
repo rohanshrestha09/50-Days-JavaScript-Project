@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculation</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="answer">
+                <h1 id="ans">Answer</h1>
+            </div>
+            <div class="input">
+                <input type="number" placeholder="First Number" id="firstInput" />
+                <input type="number" placeholder="Second Number" id="secondInput" />
+            </div>
+            <div class="button">
+                <button id="add">Add</button>
+                <button onclick="subtract();">Subtract</button>
+                <button onclick="multiply();">Multiply</button>
+                <button onclick="divide();">Divide</button>
+            </div>
+        </div>
+        <div class="section">
+            <div class="answer">
+                <h1 id="ans2">Answer</h1>
+            </div>
+            <div class="input">
+                <input type="number" placeholder="Starting Number" id="first1Input" />
+                <input type="number" placeholder="Ending Number" id="second1Input" />
+            </div>
+            <div class="button">
+                <button onclick="palindromer();">Palindrome</button>
+                <button onclick="reverser();">Reverse</button>
+                <button onclick="primer();">Prime</button>
+                <button onclick="amstrongr();">Amstrong</button>
+                <button onclick="odd();">Odd</button>
+                <button onclick="even();">Even</button>
+            </div>
+        </div>
+        <div class="section">
+            <div class="answer">
+                <h1 id="ans3">Answer</h1>
+            </div>
+            <div class="input">
+                <input type="number" placeholder="Enter the number" id="first2Input" />
+                <input type="number" placeholder="Enter the number" style="visibility: hidden;" />
+            </div>
+            <div class="button">
+                <button onclick="oddoreven();">Odd or Even</button>
+                <button onclick="palindrome();">Palindrome</button>
+                <button onclick="reverse();">Reverse</button>
+                <button onclick="prime();">Prime</button>
+                <button onclick="amstrong();">Amstrong</button>
+                <button onclick="factorial();">Factorial</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="calc.js"></script>
+
+</html>
