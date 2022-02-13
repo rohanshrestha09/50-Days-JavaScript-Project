@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="keycapture.css">
+    <title>Key Capture</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="count">
+            <h2 id="count">Total Key pressed:</h2>
+            <h2 id="time"></h2>
+        </div>
+        <div class="keyboard">
+            <h1 class="empty">Press a key</h1>
+            <h1 id="key-cap"></h1>
+        </div>
+        <div class="click-count">
+            <h3 id="click-count">Click Here</h3>
+        </div>
+        <div class="reset">
+            <button type="submit" id="reset" onclick="reset();">Reset</button>
+        </div>
+    </div>
+</body>
+<script src="keycapture.js"></script>
+
+</html>
