@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="conversion.css">
+    <title>Conversion</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="answer">
+            <h1 id="ans">Answer</h1>
+        </div>
+        <div class="input-section">
+            <input type="text" name="input" id="input" placeholder="Enter the number">
+        </div>
+        <div class="select-section">
+            <div class="box">
+                <div>
+                    <input type="radio" name="binary" id="binary">
+                    <label for="binary">Binary</label>
+                </div>
+                <div>
+                    <input type="radio" name="binary" id="decimal">
+                    <label for="binary">Decimal</label>
+                </div>
+                <div>
+                    <input type="radio" name="binary" id="octal">
+                    <label for="binary">Octal</label>
+                </div>
+                <div>
+                    <input type="radio" name="binary" id="hexadecimal">
+                    <label for="binary">Hexadecimal</label>
+                </div>
+            </div>
+            <div class="to">
+                <h1>To</h1>
+            </div>
+            <div class="box">
+                <div>
+                    <input type="radio" name="decimal" id="hexadecimal1">
+                    <label for="decimal">Hexadecimal</label>
+                </div>
+                <div>
+                    <input type="radio" name="decimal" id="octal1">
+                    <label for="decimal">Octal</label>
+                </div>
+                <div>
+                    <input type="radio" name="decimal" id="decimal1">
+                    <label for="decimal">Decimal</label>
+                </div>
+                <div>
+                    <input type="radio" name="decimal" id="binary1">
+                    <label for="decimal">Binary</label>
+                </div>
+            </div>
+        </div>
+        <div class="button-section">
+            <button type="submit" id="button">Convert</button>
+        </div>
+    </div>
+</body>
+<script src="conversion.js"></script>
+
+</html>
