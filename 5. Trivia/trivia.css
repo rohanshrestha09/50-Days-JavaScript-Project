@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+.container {
+    background-color: rgb(1, 27, 40);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.container-small {
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-small1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.pts {
+    height: 75vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid rgb(3, 49, 76);
+    border-radius: 15px;
+    color: rgb(201, 226, 225);
+    padding: 5px 0px;
+}
+
+.hint {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 12vh;
+}
+
+.hint h2 {
+    color: rgb(201, 226, 225);
+    border: rgb(3, 49, 76) solid;
+    padding: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hint h2:hover {
+    color: rgb(32, 32, 32);
+    background-color: aquamarine;
+}
+
+.banner {
+    display: grid;
+    width: 95%;
+    grid-template-columns: 4fr 2fr 1fr 1fr;
+    color: rgb(201, 226, 225);
+}
+
+.banner1 {
+    padding-left: 20px;
+}
+
+.restart {
+    transition: 0.3s;
+}
+
+.next {
+    transition: 0.3s;
+}
+
+.restart:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.next:hover {
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    font-size: x-large;
+    height: 50vh;
+    color: white;
+    border: rgb(3, 49, 76) solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.answer {
+    width: 95%;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    color: white;
+}
+
+.answer .ans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid rgb(3, 49, 76);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.answer .ans:hover {
+    color: rgb(32, 32, 32);
+    background-color: aquamarine !important;
+}
