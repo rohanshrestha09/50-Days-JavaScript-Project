@@ -7,7 +7,7 @@ Languages used:
 2. CSS
 3. JavaScript
 
-Try this web app live at: rohanshrestha09.com.np
+Try this web app on desktop (mobile not supported) live at: rohanshrestha09.com.np
 
 Download source code at: https://github.com/rohanshrestha09/50-Days-JavaScript-Project.git
 
