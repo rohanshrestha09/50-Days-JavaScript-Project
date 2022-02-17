@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+.container {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cf2e2e;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    font-size: x-large;
+    color: white;
+    margin: 10px;
+}
+
+.circle:hover {
+    background-color: #902020;
+}
+
+#stop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cf2e2e;
+    width: 150px;
+    height: 150px;
+    border-style: none;
+    border-radius: 50%;
+    font-size: x-large;
+    color: white;
+    margin: 10px;
+}
+
+#stop:hover {
+    background-color: #902020;
+}
+
+#start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cf2e2e;
+    width: 150px;
+    height: 150px;
+    border-style: none;
+    border-radius: 50%;
+    font-size: x-large;
+    color: white;
+    margin: 10px;
+}
+
+#start:hover {
+    background-color: #902020;
+}
+
+.first {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    height: 100px;
+    width: 42%;
+    background-color: #cf2e2e;
+}
+
+#pause {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#child1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cf2e2e;
+    width: 150px;
+    height: 150px;
+    border-style: none;
+    border-radius: 50%;
+    font-size: x-large;
+    color: white;
+    margin: 10px;
+}
+
+#child1:hover {
+    background-color: #902020;
+}
+
+button {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .child {
+        width: 100%;
+    }
+
+    #child1 {
+        margin: 0px 37%;
+    }
+}
